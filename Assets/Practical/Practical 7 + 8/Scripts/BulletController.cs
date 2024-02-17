@@ -11,6 +11,10 @@ namespace Practical.Practical_7.Scripts
 
         private void OnTriggerEnter(Collider other)
         {
+            if (other.transform.CompareTag("Enemy"))
+            {
+                other.GetComponent<SpiderController>()?.ChangeHealth(-50);
+            }
             Instantiate(impactBullet, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }

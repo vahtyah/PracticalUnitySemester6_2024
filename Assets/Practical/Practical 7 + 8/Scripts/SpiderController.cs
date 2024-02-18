@@ -32,7 +32,7 @@ namespace Practical.Practical_7.Scripts
         {
             currentHealth = Mathf.Clamp(currentHealth + value, 0, health);
             Debug.Log(currentHealth);
-            onChangeHealth.Invoke(currentHealth / health);
+            onChangeHealth?.Invoke(currentHealth / health);
         }
     }
 }

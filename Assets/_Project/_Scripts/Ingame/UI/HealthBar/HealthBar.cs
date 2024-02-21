@@ -27,6 +27,7 @@ public class HealthBar : MonoBehaviour
         {
             slider.gameObject.SetActive(false);
             spider.onChangeHealth -= UpdateHealthBar;
+            return;
         }
         if(!slider.gameObject.activeSelf) slider.gameObject.SetActive(true);
     }

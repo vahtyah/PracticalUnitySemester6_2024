@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Practical/Practical 7 + 8 + 9 + 11/Scenes/Practical 7.unity
     guid: 74a4648fc32d9b9409edc4b32b6d8ecf
+  - enabled: 1
+    path: Assets/Practical/Practical 15/Scenesssss/Practical 15.unity
+    guid: 9609614efeca6aa40b570e7adddf37ba
   m_configObjects: {}
